@@ -1,0 +1,26 @@
+.DS_Store
+.venv
+.eggs
+.tox
+
+*.pyc
+
+# Build specifics
+*.egg-info
+
+# Useful for testing
+example_postgis/.venv
+
+example_sqlite/.venv
+example_sqlite/dev.db
+
+# pypi specific
+MANIFEST
+dist
+build
+
+# Docs
+docs/build
+
+# JS
+node_modules
